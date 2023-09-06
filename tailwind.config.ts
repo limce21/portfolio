@@ -2,6 +2,7 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
 	content: ['./pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
+	darkMode: 'class',
 	theme: {
 		extend: {
 			backgroundImage: {
@@ -17,7 +18,16 @@ const config: Config = {
 			dustyRose: '#AC7085',
 			white: '#FFFFFF',
 			black: '#000000',
-			white_alpha20: '#ffffff33'
+			white_alpha20: '#ffffff33',
+			deepMahogany: '#33131C',
+			jetBlack: '#1E1E1E',
+			softWatermelon: '#F26F87',
+			wineberry: '#4B363E',
+			espressoBrown: '#37282E',
+			pacificBlue: '#0C928D',
+			lightGray: '#DCDCDC',
+			mediumGray: '#AFAFAF',
+			pink_alpha50: '##be778880'
 		},
 		fontFamily: {
 			sans: ['SCoreDream', 'sans-serif'],
@@ -40,7 +50,6 @@ const config: Config = {
 			'10xl': '10rem'
 		}
 	},
-	plugins: [],
-	darkMode: 'class'
+	plugins: []
 };
 export default config;
