@@ -23,7 +23,7 @@ const ThemeSwitch = () => {
 					setTheme('dark');
 				}}
 			>
-				<Dark size={25} color={'#000000'} />
+				<Dark className='absolute top-12 right-12' size={25} color={'#000000'} />
 			</button>
 		);
 	} else {
@@ -33,7 +33,7 @@ const ThemeSwitch = () => {
 					setTheme('light');
 				}}
 			>
-				<Light size={25} color={'#FFFFFF'} />
+				<Light className='absolute top-12 right-12' size={25} color={'#FFFFFF'} />
 			</button>
 		);
 	}
